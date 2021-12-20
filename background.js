@@ -9,16 +9,6 @@
     "contexts": ["page", "selection", "image", "link"]
   })
   chrome.contextMenus.create({
-    "id": "left",
-    "title": "live2d 擴展 left",
-    "contexts": ["page", "selection", "image", "link"]
-  })
-  chrome.contextMenus.create({
-    "id": "right",
-    "title": "live2d 擴展 right",
-    "contexts": ["page", "selection", "image", "link"]
-  })
-  chrome.contextMenus.create({
     "id": "hide",
     "title": "live2d 隱藏 off",
     "contexts": ["page", "selection", "image", "link"]
