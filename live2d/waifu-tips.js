@@ -1,3 +1,7 @@
+/**
+ * Copyright 2021 yan-930521  All Rights Reserved.
+ */
+
 var others_ver = "ff5d2381aed472cfa960df65daa92419b174330b";
 var others_path = `https://cdn.jsdelivr.net/gh/yan-930521/Live2d-model@${others_ver}/`;
 

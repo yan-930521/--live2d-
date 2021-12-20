@@ -3,14 +3,17 @@
   "name": "sakura system",
   "version": "1.0.0",
   "description": "sakura system live2d 嵌入系統",
+  "action": {
+    "default_title": "sakura system"
+  },
   "background": {
     "service_worker": "background.js"
   },
-  "optional_permissions": [ "activeTab", "storage","contextMenus","scripting","webRequest" ],
-  "host_permissions": ["https://cdn.jsdelivr.net/gh/yan-930521/*"],
+  "permissions": [ "activeTab", "storage","contextMenus","scripting","webRequest" ],
+  "host_permissions": ["<all_urls>"],
   "web_accessible_resources": [
     {
-      "resources": ["/live2d/*", "/Live2d-model@ff5d2381aed472cfa960df65daa92419b174330b/*", "on.js", "off.js", "help.js"],
+      "resources": ["/live2d/*", "/Live2d-model@ff5d2381aed472cfa960df65daa92419b174330b/*", "off.js", "help.js"],
       "matches": ["<all_urls>"]
     }
   ],
