@@ -1,0 +1,1 @@
+window.location.href='https://discord.gg/KvmYAw7nYw';
