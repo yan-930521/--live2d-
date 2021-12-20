@@ -2,20 +2,33 @@
  * Copyright 2021 yan-930521  All Rights Reserved.
  */
 
-chrome.runtime.onInstalled.addListener(() => {
+ chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({
     "id": "showLIVE2D_append",
-    "title": "live2d 擴展 on"
+    "title": "live2d 擴展 on",
+    "contexts": ["page", "selection", "image", "link"]
+  })
+  chrome.contextMenus.create({
+    "id": "left",
+    "title": "live2d 擴展 left",
+    "contexts": ["page", "selection", "image", "link"]
+  })
+  chrome.contextMenus.create({
+    "id": "right",
+    "title": "live2d 擴展 right",
+    "contexts": ["page", "selection", "image", "link"]
   })
   chrome.contextMenus.create({
     "id": "hide",
-    "title": "live2d 隱藏 off"
+    "title": "live2d 隱藏 off",
+    "contexts": ["page", "selection", "image", "link"]
   })
   chrome.contextMenus.create({
     "id": "help",
-    "title": "live2d 幫助 help"
+    "title": "live2d 幫助 help",
+    "contexts": ["page", "selection", "image", "link"]
   })
-})
+});
 
 chrome.contextMenus.onClicked.addListener((info, tab) => {
   switch (info.menuItemId) {
