@@ -1,6 +1,3 @@
-var others_ver = "ff5d2381aed472cfa960df65daa92419b174330b";
-var others_path = `https://cdn.jsdelivr.net/gh/yan-930521/Live2d-model@${others_ver}/`;
-
 var data = {
   "mouseover": [{
     "selector": "#live2d",
@@ -18,7 +15,11 @@ var data = {
     "text": "讓我們一起祝櫻2生日快樂～"
   }]
 }
-initWidget(others_path);
+chrome.storage.sync.get(['live2d_ver'], (result) => {
+  let others_path = `https://cdn.jsdelivr.net/gh/yan-930521/Live2d-model@${result.live2d_ver}/`;
+  initWidget(others_path);
+})
+
 
 function loadWidget(others_path) {
   localStorage.removeItem("waifu-display");
@@ -58,8 +59,6 @@ function loadWidget(others_path) {
     */
   let molist = [
     {
-      id: "l_103300401"
-    }, {
       id: "l_103300460"
     }, {
       id: "l_103501211"
@@ -99,6 +98,11 @@ function loadWidget(others_path) {
       id: "l_234600111"
     }
   ]
+  /* 有問題
+  {
+      id: "l_103300401"
+    }, 
+  */
 
   loadModel(others_path + "方舟指令/" + molist[Math.floor(Math.random() * molist.length)].id + "/model.json");
   // 檢測用戶狀態
@@ -212,4 +216,3 @@ function loadWidget(others_path) {
 function initWidget(others_path) {
   loadWidget(others_path);
 }
-

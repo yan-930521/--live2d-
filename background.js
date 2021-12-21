@@ -14,6 +14,15 @@ chrome.runtime.onInstalled.addListener(() => {
     "title": "live2d 幫助 help",
     "contexts": ["page", "selection", "image", "link"]
   })
+  chrome.storage.sync.get(['live2d_ver'], (result) => {
+    console.log('the version is ' + result.live2d_ver);
+    if(!result.live2d_ver || result.live2d_ver.includes('@')) {
+      chrome.storage.sync.set({live2d_ver: "1ef61178c7c6787a950f064613c8e3be2c67e153"});
+      chrome.storage.sync.get(['live2d_ver'], (result) => {
+        console.log('the new version is ' + result.live2d_ver);
+      });
+    }
+  });
 });
 
 chrome.contextMenus.onClicked.addListener((info, tab) => {

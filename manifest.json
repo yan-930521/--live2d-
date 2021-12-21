@@ -6,6 +6,9 @@
   "action": {
     "default_title": "sakura system"
   },
+  "options_ui": {
+    "page": "options.html"
+  },
   "background": {
     "service_worker": "background.js"
   },
