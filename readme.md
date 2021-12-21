@@ -1,4 +1,5 @@
 # live2d 嵌入-chrome擴充功能
+
 製作團隊：sakura system<br>
 雖然說是團隊，但其實也只有我自己一個人<br>
 support : <br>
@@ -36,6 +37,7 @@ https://github.com/Eikanya/Live2d-model
 ---
 
 # 免責聲明 disclaimer
+
 1. License：　GNU General Public License v3.0<br>
 
 2. 用作展示的所有 Live2D 模型、圖片、動作數據等版權均屬於其原作者。
