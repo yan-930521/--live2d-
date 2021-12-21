@@ -3,8 +3,10 @@
 製作團隊：sakura system<br>
 雖然說是團隊，但其實也只有我自己一個人<br>
 support : <br>
-- discord：https://discord.gg/KvmYAw7nYw<br>
-我好想要discord的nitro，請求大佬們贊助 ORZ<br>
+- discord：　櫻2#0915<br>
+  my server：　https://discord.gg/KvmYAw7nYw<br>
+  
+　我好想要discord的nitro，請求大佬們贊助 ORZ<br>
 
 - hackmd介紹：https://hackmd.io/E0enq9EeSTK9-LSB2Mkb9Q?view<br>
 ---
@@ -45,7 +47,6 @@ https://github.com/Eikanya/Live2d-model
 2. 用作展示的所有 Live2D 模型、圖片、動作數據等版權均屬於其原作者。
 
 3. 僅供研究學習，不得用於商業用途。<br>
-   ( 因為 live2d模型 、 live2d的核心程式 的商業授權都是要付費的 )
 
 4. 原作為：　https://github.com/stevenjoezhang/live2d-widget<br>
 
