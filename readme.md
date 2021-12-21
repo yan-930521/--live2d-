@@ -4,7 +4,9 @@
 雖然說是團隊，但其實也只有我自己一個人<br>
 support : <br>
 - discord：https://discord.gg/KvmYAw7nYw<br>
-我好想要discord的nitro，請求大佬們贊助 ORZ
+我好想要discord的nitro，請求大佬們贊助 ORZ<br>
+
+- hackmd介紹：https://hackmd.io/E0enq9EeSTK9-LSB2Mkb9Q?view<br>
 ---
 
 # 使用畫面
