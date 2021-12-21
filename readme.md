@@ -35,14 +35,16 @@ https://github.com/Eikanya/Live2d-model
 
 ---
 
-# 版權聲明
+# 免責聲明 disclaimer
+1. License：　GNU General Public License v3.0<br>
 
-- 本人不對此擴充功能所造成的意外負責
-- 若非特別註明，則其著作權請向<br>
-https://github.com/stevenjoezhang/live2d-widget<br>
-的作者詢問
-- 禁止一切商業行為，違者請自負後果
-- 善意提醒：此文件的live2d模組也有被我修改過
+2. 用作展示的所有 Live2D 模型、圖片、動作數據等版權均屬於其原作者。
+
+3. 僅供研究學習，不得用於商業用途。
+
+4. 原作為：　https://github.com/stevenjoezhang/live2d-widget<br>
+
+5. 善意提醒：　此文件的live2d模組也有被我修改過
 
 ---
 
