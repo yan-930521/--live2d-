@@ -40,11 +40,12 @@ https://github.com/Eikanya/Live2d-model
 
 2. 用作展示的所有 Live2D 模型、圖片、動作數據等版權均屬於其原作者。
 
-3. 僅供研究學習，不得用於商業用途。
+3. 僅供研究學習，不得用於商業用途。<br>
+   ( 因為 live2d模型 、 live2d的核心程式 的商業授權都是要付費的 )
 
 4. 原作為：　https://github.com/stevenjoezhang/live2d-widget<br>
 
-5. 善意提醒：　此文件的live2d模組也有被我修改過
+5. 善意提醒：　此文件的live2d的核心程式也有被我修改過<br>
 
 ---
 
