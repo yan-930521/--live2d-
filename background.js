@@ -1,8 +1,4 @@
-/**
- * Copyright 2021 yan-930521  All Rights Reserved.
- */
-
- chrome.runtime.onInstalled.addListener(() => {
+chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({
     "id": "showLIVE2D_append",
     "title": "live2d 擴展 on",
