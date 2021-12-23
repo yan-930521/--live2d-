@@ -1,0 +1,42 @@
+{
+  "files": {
+    "background.js": [
+      {
+        "id": "64309431-b611-4bfb-bd4c-88939b7e6821",
+        "line": 10,
+        "version": 17,
+        "index": 281
+      },
+      {
+        "id": "8a122470-1026-4df2-9e34-4dadf83d01ad",
+        "line": 59,
+        "version": 18,
+        "index": 1557
+      }
+    ],
+    "help.js": [
+      {
+        "id": "80f14b56-5fcc-4795-972c-fe88ca5c29c2",
+        "line": 1,
+        "version": 7,
+        "index": 0
+      }
+    ],
+    "manifest.json": [
+      {
+        "id": "324eefb6-f735-496a-b40c-8b476acb253d",
+        "line": 9,
+        "version": 38,
+        "index": 180
+      }
+    ],
+    "options.html": [
+      {
+        "id": "d987e307-9e1f-4b3d-a24a-196398f8e632",
+        "line": 14,
+        "version": 2,
+        "index": 373
+      }
+    ]
+  }
+}
