@@ -15,9 +15,17 @@ var data = {
     "text": "讓我們一起祝櫻2生日快樂～"
   }]
 }
+
 chrome.storage.sync.get(['live2d_ver'], (result) => {
-  let others_path = `https://cdn.jsdelivr.net/gh/yan-930521/Live2d-model@${result.live2d_ver}/`;
-  initWidget(others_path);
+  let others_path = `https://cdn.jsdelivr.net/gh/yan-930521/live2dModel2@${result.live2d_ver}/index.json`;
+  fetch(others_path).then((response)=>{
+    return response.json();
+  }).then((da)=>{
+    chrome.storage.sync.get(['live2d_role'], (result) => {
+      initWidget(da.models[result.live2d_role].link);
+    });
+  })
+  
 })
 
 
@@ -57,6 +65,7 @@ function loadWidget(others_path) {
       id:"l_234100511"
     },
     */
+   /*
   let molist = [
     {
       id: "l_103300460"
@@ -98,13 +107,14 @@ function loadWidget(others_path) {
       id: "l_234600111"
     }
   ]
-  /* 有問題
+   有問題
   {
       id: "l_103300401"
     }, 
   */
 
-  loadModel(others_path + "方舟指令/" + molist[Math.floor(Math.random() * molist.length)].id + "/model.json");
+  // loadModel(others_path + "方舟指令/" + molist[Math.floor(Math.random() * molist.length)].id + "/model.json");
+  loadModel(others_path);
   // 檢測用戶狀態
 
   var userAction = false,

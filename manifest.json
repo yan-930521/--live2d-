@@ -16,7 +16,13 @@
   "host_permissions": ["<all_urls>"],
   "web_accessible_resources": [
     {
-      "resources": ["/live2d/*", "/Live2d-model@ff5d2381aed472cfa960df65daa92419b174330b/*", "off.js", "help.js"],
+      "resources": [
+        "/live2d/*", 
+        "/Live2d-model@ff5d2381aed472cfa960df65daa92419b174330b/*",
+        "off.js", 
+        "help.js",
+        "options.js"
+      ],
       "matches": ["<all_urls>"]
     }
   ],

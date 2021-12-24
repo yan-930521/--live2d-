@@ -17,12 +17,23 @@ chrome.runtime.onInstalled.addListener(() => {
   chrome.storage.sync.get(['live2d_ver'], (result) => {
     console.log('the version is ' + result.live2d_ver);
     if(!result.live2d_ver || result.live2d_ver.includes('@')) {
-      chrome.storage.sync.set({live2d_ver: "1ef61178c7c6787a950f064613c8e3be2c67e153"});
+      chrome.storage.sync.set({live2d_ver: "ff727c45cfac065941bb133c2287e1e7c936ef97"});
       chrome.storage.sync.get(['live2d_ver'], (result) => {
         console.log('the new version is ' + result.live2d_ver);
       });
     }
   });
+
+  chrome.storage.sync.get(['live2d_role'], (result) => {
+    console.log('the role is ' + result.live2d_role);
+    if(!result.live2d_role) {
+      chrome.storage.sync.set({live2d_role: "五合琴里"});
+      chrome.storage.sync.get(['live2d_role'], (result) => {
+        console.log('the new role is ' + result.live2d_role);
+      });
+    }
+  });
+
 });
 
 chrome.contextMenus.onClicked.addListener((info, tab) => {

@@ -14,9 +14,17 @@ support : <br>
 # 使用畫面
 
 ![image](https://media.discordapp.net/attachments/921704490778894368/922443716864667728/unknown.png)
-看得太入迷了，所以不小心把update打成了updata XD<br>
+不小心把update打成了updata XD<br>
 
 ![image](https://media.discordapp.net/attachments/921704490778894368/922450165120524338/unknown.png)
+
+![image](https://media.discordapp.net/attachments/921704490778894368/923972023447855144/unknown.png)
+
+![image](https://media.discordapp.net/attachments/921704490778894368/923930534097342505/unknown.png)
+
+![image](https://media.discordapp.net/attachments/921704490778894368/923950449483198494/unknown.png)
+
+![image](https://media.discordapp.net/attachments/921704490778894368/923973774393626675/unknown.png)
 
 ---
 
@@ -26,6 +34,18 @@ support : <br>
 ps.有些網站的有些地方會失效哦<br>
 ![image](https://media.discordapp.net/attachments/921704490778894368/922444464671305758/unknown.png)
 
+---
+
+# 設定
+
+1. 點開 『選項』
+![image](https://media.discordapp.net/attachments/921704490778894368/922877004578172948/unknown.png)
+
+2. 填入最新的金鑰來更新系統
+![image](https://media.discordapp.net/attachments/921704490778894368/923938294662856734/unknown.png)
+
+3. 下方的是現在可選的角色，隨時都可以改，選定的話就代表網頁擴展出來的角色會是她
+![image](https://media.discordapp.net/attachments/921704490778894368/923939068545482762/unknown.png)
 ---
 
 # 特別感謝
@@ -55,3 +75,6 @@ https://github.com/Eikanya/Live2d-model
 ---
 
 # update
+
+目前支援的模型如下 :
+![image](https://media.discordapp.net/attachments/921704490778894368/923973326316109824/unknown.png)
