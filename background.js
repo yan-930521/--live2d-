@@ -17,7 +17,7 @@ chrome.runtime.onInstalled.addListener(() => {
   chrome.storage.sync.get(['live2d_ver'], (result) => {
     console.log('the version is ' + result.live2d_ver);
     if(!result.live2d_ver || result.live2d_ver.includes('@')) {
-      chrome.storage.sync.set({live2d_ver: "ff727c45cfac065941bb133c2287e1e7c936ef97"});
+      chrome.storage.sync.set({live2d_ver: "742e6ac6f74745cc2e98fea81dfe433453fb66b7"});
       chrome.storage.sync.get(['live2d_ver'], (result) => {
         console.log('the new version is ' + result.live2d_ver);
       });

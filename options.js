@@ -8,12 +8,13 @@ ver.onchange = () => {
 }
 
 chrome.storage.sync.get(['live2d_ver'], (result) => {
+  console.log("get")
   let others_path = `https://cdn.jsdelivr.net/gh/yan-930521/live2dModel2@${result.live2d_ver}/index.json`;
   fetch(others_path).then((response) => {
     return response.json();
   }).then((da) => {
     console.log(da)
-    for (let d in data.models) {
+    for (let d in da.models) {
       // data.models[d].name
       let b = document.createElement('button');
       // b.style.fontSize = '50px'
@@ -23,8 +24,7 @@ chrome.storage.sync.get(['live2d_ver'], (result) => {
       b.onclick = () => {
         alert("已選擇 " + d);
         choose.innerText = `live2d 模型 : ${d}`
-        // chrome.storage.sync.set({live2d_role: d});
-
+        chrome.storage.sync.set({live2d_role: d});
       }
       box.appendChild(b);
     }
